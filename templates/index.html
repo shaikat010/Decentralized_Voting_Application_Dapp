@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="nav-section">
+          <a href="#about">ABOUT</a>
+        </div>
+        <div class="nav-section">
+          <a href="#status">STATUS</a>
+        </div>
+      </div>
+
+    <div class="main">
+      <h1 id="header">Voting Registration Form 2023</h1>
+      <img
+        src="https://seeklogo.com/images/B/bangladesh-govt-logo-A2C7688845-seeklogo.com.png"
+        alt=""
+      />
+    </div>
+  </body>
+
+  <div class="form">
+    <form action="/process_form" method="POST">
+      <label for="input"> Enter your name</label>
+      <input type="text" name="textinput" id="textinput" placeholder="Enter you name" />
+      <label for="input"> Enter your OTP</label>
+      <input type="text" name="otpinput" id="otpinput" placeholder="Enter you OTP" />
+      <label for="input"> Place your Vote</label>
+      <input type="text" name="vote" id="vote" placeholder="Place you vote" />
+      <button id="submit">Submit</button>
+    </form>
+  </div>
+</html>

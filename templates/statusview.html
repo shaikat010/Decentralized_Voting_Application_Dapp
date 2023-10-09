@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/statusstyle.css"/>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-section">
+        <a href="index.html">REGISTRATION FORM</a>
+      </div>
+      <div class="nav-section">
+        <a href="status.html">STATUS</a>
+      </div>
+    </div>
+
+
+    <div class="success-message">
+        <div class="tick-mark">&#10004;</div>
+        <div class="message">Vote has been placed successfully!</div>
+    </div>
+
+
+    <div class="status-table">
+      <table>
+        <tr>
+          <th>Party Name</th>
+          <th>Number of Votes</th>
+        </tr>
+        <tr>
+          <td>AWL</td>
+          <td>{{ awl }}</td>
+        </tr>
+        <tr>
+          <td>BNP</td>
+          <td>{{ bnp }}</td>
+        </tr>
+        <tr>
+          <td>Neutral</td>
+          <td>{{ neutral }}</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>{{ total }}</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
